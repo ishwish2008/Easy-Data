@@ -1,0 +1,28 @@
+{
+	"name": "fake-api",
+	"version": "1.9.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"ejs": "^3.1.5",
+		"express": "^4.17.1",
+		"save": "^2.4.0"
+	},
+	"devDependencies": {
+		"prettier": "2.1.2"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"pretty": "npx prettier --write .",
+		"start-dev": "nodemon app"
+	},
+	"author": "Ishaan Dabhade",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ishwish2008/RandomGeneratorAPI.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ishwish2008/RandomGeneratorAPI/issues"
+	},
+	"homepage": "https://github.com/ishwish2008/RandomGeneratorAPI#readme"
+}

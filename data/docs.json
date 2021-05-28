@@ -1,0 +1,62 @@
+{
+	"name": "easyData",
+	"objective": "A simple way to get random data.",
+	"endpoints": [
+		{
+			"description": "returns a random user",
+			"url": "/user",
+			"parameters": [
+				{
+					"key": "qty",
+					"required": false
+				}
+			]
+		},
+		{
+			"description": "returns a random product",
+			"url": "/product",
+			"parameters": [
+				{
+					"key": "qty",
+					"required": false
+				}
+			]
+		},
+		{
+			"description": "returns a random picture",
+			"url": "/picture",
+			"parameters": [
+				{
+					"key": "qty",
+					"required": false
+				}
+			]
+		},
+		{
+			"description": "returns a random address",
+			"url": "/address",
+			"parameters": [
+				{
+					"key": "qty",
+					"required": false
+				}
+			]
+		},
+		{
+			"url": "/show/user",
+			"description": "Returns all users"
+		},
+		{
+			"url": "/show/product",
+			"description": "Returns all products"
+		},
+		{
+			"url": "/show/picture",
+			"description": "Returns all pictures"
+		},
+		{
+			"url": "/show/address",
+			"description": "Returns all addresses"
+		}
+	]
+}
